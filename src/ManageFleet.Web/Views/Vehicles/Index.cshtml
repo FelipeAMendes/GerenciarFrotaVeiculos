@@ -1,0 +1,73 @@
+﻿@model IEnumerable<ManageFleet.Application.ViewModels.VehicleListViewModel>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Veículos</h2>
+<hr />
+<div class="alert alert-info">
+    * Listar todos os veículos
+</div>
+<div class="panel panel-primary">
+    <div class="panel-header">
+        <h3 class="panel-title">Lista de Veículos</h3>
+    </div>
+    <div class="panel-body table-responsive no-padding">
+        <table class="table table table-hover">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Chassi)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Color)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NomeTipoVeiculo)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.QuantidadePassageiros)
+                    </th>
+                    <th class="text-center">Detalhes</th>
+                    <th class="text-center">Editar</th>
+                    <th class="text-center">Excluir</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Chassi)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Color)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NomeTipoVeiculo)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.QuantidadePassageiros)
+                        </td>
+                        <td class="text-center">
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary"><span title="Detalhes" class="glyphicon glyphicon-search"></span></a>
+                        </td>
+                        <td class="text-center">
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning"><span title="Editar" class="glyphicon glyphicon-pencil"></span></a>
+                        </td>
+                        <td class="text-center">
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger"><span title="Excluir" class="glyphicon glyphicon-trash"></span></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="panel-footer">
+        <a asp-action="Create" title="Inserir novo Veículo" class="btn btn-primary">
+            Inserir Veículo
+            <span title="Inserir novo Veículo" class="glyphicon glyphicon-plus-sign"></span>
+        </a>
+    </div>
+</div>

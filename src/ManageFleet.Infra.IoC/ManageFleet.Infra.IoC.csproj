@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.0.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ManageFleet.Application\ManageFleet.Application.csproj" />
+    <ProjectReference Include="..\ManageFleet.Domain\ManageFleet.Domain.csproj" />
+    <ProjectReference Include="..\ManageFleet.Infra.Data\ManageFleet.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

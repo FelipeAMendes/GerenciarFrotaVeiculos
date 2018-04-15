@@ -1,0 +1,17 @@
+C:\Users\Felipe-PC\source\repos\ManageFleet\src\ManageFleet.Domain\bin\Debug\netcoreapp2.0\ManageFleet.Domain.deps.json
+C:\Users\Felipe-PC\source\repos\ManageFleet\src\ManageFleet.Domain\bin\Debug\netcoreapp2.0\ManageFleet.Domain.dll
+C:\Users\Felipe-PC\source\repos\ManageFleet\src\ManageFleet.Domain\bin\Debug\netcoreapp2.0\ManageFleet.Domain.pdb
+C:\Users\Felipe-PC\source\repos\ManageFleet\src\ManageFleet.Domain\obj\Debug\netcoreapp2.0\ManageFleet.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Felipe-PC\source\repos\ManageFleet\src\ManageFleet.Domain\obj\Debug\netcoreapp2.0\ManageFleet.Domain.AssemblyInfoInputs.cache
+C:\Users\Felipe-PC\source\repos\ManageFleet\src\ManageFleet.Domain\obj\Debug\netcoreapp2.0\ManageFleet.Domain.AssemblyInfo.cs
+C:\Users\Felipe-PC\source\repos\ManageFleet\src\ManageFleet.Domain\obj\Debug\netcoreapp2.0\ManageFleet.Domain.dll
+C:\Users\Felipe-PC\source\repos\ManageFleet\src\ManageFleet.Domain\obj\Debug\netcoreapp2.0\ManageFleet.Domain.pdb
+C:\Users\Felipe-PC\source\repos\ManageFleet\ManageFleet\src\ManageFleet.Domain\bin\Debug\netcoreapp2.0\ManageFleet.Domain.deps.json
+C:\Users\Felipe-PC\source\repos\ManageFleet\ManageFleet\src\ManageFleet.Domain\bin\Debug\netcoreapp2.0\ManageFleet.Domain.dll
+C:\Users\Felipe-PC\source\repos\ManageFleet\ManageFleet\src\ManageFleet.Domain\bin\Debug\netcoreapp2.0\ManageFleet.Domain.pdb
+C:\Users\Felipe-PC\source\repos\ManageFleet\ManageFleet\src\ManageFleet.Domain\obj\Debug\netcoreapp2.0\ManageFleet.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Felipe-PC\source\repos\ManageFleet\ManageFleet\src\ManageFleet.Domain\obj\Debug\netcoreapp2.0\ManageFleet.Domain.AssemblyInfoInputs.cache
+C:\Users\Felipe-PC\source\repos\ManageFleet\ManageFleet\src\ManageFleet.Domain\obj\Debug\netcoreapp2.0\ManageFleet.Domain.AssemblyInfo.cs
+C:\Users\Felipe-PC\source\repos\ManageFleet\ManageFleet\src\ManageFleet.Domain\obj\Debug\netcoreapp2.0\ManageFleet.Domain.dll
+C:\Users\Felipe-PC\source\repos\ManageFleet\ManageFleet\src\ManageFleet.Domain\obj\Debug\netcoreapp2.0\ManageFleet.Domain.pdb
+C:\Users\Felipe-PC\source\repos\ManageFleet\ManageFleet\src\ManageFleet.Domain\obj\Debug\netcoreapp2.0\ManageFleet.Domain.csprojResolveAssemblyReference.cache

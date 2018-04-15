@@ -1,0 +1,37 @@
+﻿@model ErrorViewModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h1 class="text-danger">Ops!</h1>
+<h2 class="text-danger">Ocorreu um erro durante o processamento do seu pedido.</h2>
+
+<div class="row">
+    <div class="panel panel-primary">
+        <div class="panel-header">
+            <h3 class="panel-title">Informações</h3>
+        </div>
+
+        <div class="panel-body">
+            <p>
+                <strong>Data: </strong> @DateTime.Now.ToShortDateString() - @DateTime.Now.ToShortTimeString()
+            </p>
+
+            <hr />
+            @if (Model.ShowRequestId)
+            {
+                <p>
+                    Entre em contato com o administrador do sistema e informe o código:
+                    <strong>Request ID:</strong> <code>@Model.RequestId</code>
+                </p>
+            }
+        </div>
+
+        <div class="panel-footer">
+            <a asp-controller="Vehicles" asp-action="Index" class="btn btn-info">
+                Voltar a Lista
+                <span title="Voltar a Lista" class="glyphicon glyphicon-circle-arrow-left"></span>
+            </a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ManageFleet.Domain\ManageFleet.Domain.csproj" />
+    <ProjectReference Include="..\ManageFleet.Infra.Data\ManageFleet.Infra.Data.csproj" />
+    <ProjectReference Include="..\ManageFleet.Infra.Extensions\ManageFleet.Infra.Extensions.csproj" />
+  </ItemGroup>
+
+</Project>

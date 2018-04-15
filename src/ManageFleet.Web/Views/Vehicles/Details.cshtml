@@ -1,0 +1,50 @@
+﻿@model ManageFleet.Application.ViewModels.VehicleListViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Veículo</h2>
+<hr />
+<div class="alert alert-info">
+    * Encontrar um Veículo por Chassi
+</div>
+<div class="row">
+    <div class="panel panel-primary">
+        <div class="panel-header">
+            <h3 class="panel-title">Informações do Veículo</h3>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-3"><label class="control-label">@Html.DisplayNameFor(model => model.Id)</label></div>
+                <div class="col-md-9">@Html.DisplayFor(model => model.Id)</div>
+            </div>
+            <div class="row">
+                <div class="col-md-3"><label class="control-label">@Html.DisplayNameFor(model => model.Chassi)</label></div>
+                <div class="col-md-9">@Html.DisplayFor(model => model.Chassi)</div>
+            </div>
+            <div class="row">
+                <div class="col-md-3"><label class="control-label">@Html.DisplayNameFor(model => model.Color)</label></div>
+                <div class="col-md-9">@Html.DisplayFor(model => model.Color)</div>
+            </div>
+            <div class="row">
+                <div class="col-md-3"><label class="control-label">@Html.DisplayNameFor(model => model.NomeTipoVeiculo)</label></div>
+                <div class="col-md-9">@Html.DisplayFor(model => model.NomeTipoVeiculo)</div>
+            </div>
+            <div class="row">
+                <div class="col-md-3"><label class="control-label">@Html.DisplayNameFor(model => model.QuantidadePassageiros)</label></div>
+                <div class="col-md-9">@Html.DisplayFor(model => model.QuantidadePassageiros)</div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <a asp-action="Index" class="btn btn-info">
+                Voltar a Lista
+                <span title="Voltar a Lista" class="glyphicon glyphicon-circle-arrow-left"></span>
+            </a>
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">
+                Editar
+                <span title="Editar" class="glyphicon glyphicon-pencil"></span>
+            </a>
+        </div>
+    </div>
+</div>
